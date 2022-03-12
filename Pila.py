@@ -43,4 +43,7 @@ class Pila:
         if aux != None:
             self.top = aux.next
             aux.next = None
+
+    def peek( self ):
+        return self.top 
     
